@@ -1,5 +1,5 @@
 #!/bin/bash
-filewebsite="https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master"
+filewebsite="https://raw.githubusercontent.com/fancyblock/retroflag-picase/master"
 sleep 2s
 #Step 1) Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then
@@ -11,7 +11,7 @@ fi
 #-----------------------------------------------------------
 
 #Step 3) Update repository----------------------------------
-sudo apt-get update -y
+# sudo apt-get update -y 
 
 sleep 2s
 #-----------------------------------------------------------
